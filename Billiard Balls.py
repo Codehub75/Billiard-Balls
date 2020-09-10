@@ -1,4 +1,5 @@
-
+# download the icon.png file and put it in the same folder in order to run the program
+#don't forget to download pygame library also
 import pygame
 import random 
 import math
