@@ -78,7 +78,7 @@ for i in range(no_of_particles):
 
 
 
-loop=True
+run=True
 
 
 while loop:
@@ -86,7 +86,7 @@ while loop:
 	display.blit(code_hub_,(520,0))
 	for event in pygame.event.get():
 		if event.type == pygame.QUIT:
-			loop=False
+			run=False
 
 	for i,ball in enumerate(my_particles):
 		ball.bounce()
